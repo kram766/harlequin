@@ -1,0 +1,1298 @@
+<html>
+
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+<script>
+    $(document).ready(function(){
+        
+        var i=0;
+        
+       $("#lable").click(function(){
+           
+           var j;
+          var j=i%2;
+           
+           if(j==0) {
+             $(".section1").addClass("import"); 
+              i++;         
+           }
+           else{
+              $(".section1").removeClass("import"); 
+               i++;
+           }
+           
+       });
+        
+  
+});
+    </script>
+    <style>
+        
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            overflow: auto;
+            font-family: 'Lato', sans-serif;
+        }
+        .header{
+            background-color:#000B48;
+            width: 100%;
+         
+        }
+        .heading{
+            width:100%;
+             color:#4966FE;
+            font-size: 35px;
+            font-weight: 600;
+            font-family: 'Roboto Mono', monospace;
+            font-family: 'Roboto', sans-serif;
+            padding: 50px 0px 50px 0px;
+
+        }
+        .heading p{
+            width: 60%;
+            padding: 0px 0px 20px 100px;
+            display: inline-block;
+        
+        }
+        .toggle_checkbox{
+            width: 60px;
+            float: right;
+            margin: 0px 20px 0px 20px;
+            display: none;
+        }
+        lable{
+            display: none;
+        }
+        #toggle{
+            
+            display: none;
+            
+        }
+        .main{
+            
+            width: 100%;
+            background-color:#000B48;
+           
+        }
+        .main_wrapper{
+          display: flex;  
+        }
+        .section1{
+            width: 12%;
+            display: inline-block;
+        }
+        .section1 ul{
+            list-style: none;
+            float: right;
+        }
+        .section1 li{
+            padding-top: 10px;
+            font-size: 11px;
+            font-family: sans-serif;
+            color: darkgray;
+            line-height: 1.5;
+        }
+        .section1 li:hover{
+            color: white;
+            cursor: pointer;
+        }
+        .wrapper{
+            display: inline-block;
+            color:white;
+            font-size: 60px;
+            margin-left: 50px;
+            width: 55%;
+            margin-bottom: 90px;
+         
+        }
+        .section3_wrapper{
+            width: 100%;
+            background-color:#000B48;
+            color: white;
+        }
+        .section31{
+           width: 40%;  
+           padding: 50px 50px 0px 50px;
+           border-radius: 5px;
+        }
+        .section311{
+            width: 100%;
+            background-color:#00134F;
+            border-radius: 5px;
+          
+        }
+        .wed{
+           width: 100%;
+        }
+        #wedd{
+           padding:60px 0px 50px 60px;
+           font-size: small;
+           color: #4966FE;
+           font-family: sans-serif;
+           letter-spacing: 1;
+        }
+        #zedb{
+            padding:0px 60px 20px 60px;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        #hgdb{
+            padding:0px 52px 20px 60px;
+            font-size: 17px;
+            font-family: sans-serif; 
+            color: darkgray;
+            line-height: 1.4;
+        }
+        #ea{
+            padding:30px 60px 20px 60px;
+            font-size: 20px;
+            font-family: sans-serif; 
+        }
+        #tifa{
+            padding:0px 52px 20px 60px;
+            font-size: 17px;
+            font-family: sans-serif; 
+            color: darkgray;
+            line-height: 1.4; 
+        }
+        #tar{
+            padding:30px 60px 20px 60px;
+            font-size: 20px;
+            font-family: sans-serif;   
+        }
+        #wpoa{
+            padding:0px 52px 40px 60px;
+            font-size: 17px;
+            font-family: sans-serif; 
+            color: darkgray;
+            line-height: 1.4;            
+        }
+        .content{
+            width: 100%;
+            background-color:#000B48;
+            display: flex;
+        }
+        .content_file1{
+            
+            width: 45%;
+            padding: 100px 40px 0px 50px;
+        }
+        #odpp{
+            padding: 0px 40px 20px 0px;
+            font-size: 34px;
+            font-family:inherit;
+            color: white;
+            letter-spacing: 1;
+
+        }
+        #aani{
+            padding: 40px 40px 20px 0px;
+            color: darkgray;
+            font-size: 17;
+            font-family: sans-serif;
+            line-height: 1.5;
+        }
+        .content_file2{
+            width: 50%;
+            
+        }
+        .content_file2_wrapper{
+            padding: 10px 0px 0px 40px;
+            width: 85%;
+        }
+        #week_pack,#week_pack2,#week_pack3{
+            padding: 0px 0px 30px 0px;
+            color: darkslategray;
+            font-size: 70px;
+            letter-spacing: 2;
+        
+        }
+        #plp,#plp2,#plp3{
+            padding: 20px 0px 20px 20px;
+            font-size: larger;
+            color: #4966FE;
+            font-family: sans-serif;
+
+        }
+        #cat,#cat2,#cat3{
+            padding: 20px 0px 20px 20px;
+            font-size: larger;
+            color: #4966FE;          
+            font-family: sans-serif;
+
+        }
+        #smp,#smp2,#smp3{
+            padding: 20px 0px 20px 20px;
+            font-size: larger;
+            color: #4966FE; 
+            font-family: sans-serif;
+        }
+        
+        .content_file3{
+            width: 100%;
+            float: right;
+            background-color:#000B48;
+        }
+        .content_file31{
+            width: 100%;
+            float: right;
+        }
+          .content_file4{
+            width: 100%;
+            background-color:#000B48;
+            float: right;  
+        }
+        .content_file41{
+            width: 100%;
+            float: right;
+        }
+        .team{
+            width: 100%;
+            display: inline-block;
+        }
+        .team_content_wrapper{
+            width: 50%;
+            float: left;
+            padding:0px 0px 0px 60px;
+        }
+        #wwa{
+            font-size: 11;
+            width: 80%;
+            padding: 50px 10px 40px 0px;
+            color: #4461F9;
+            display: inline-block;
+        }
+        #otpy{
+            font-size: 37px;
+            width: 70%;
+            padding: 0px 0px 30px 0px;
+            letter-spacing: 2;
+            display: inline-block;
+
+        }
+        #wapw{
+            width: 80%;
+            font-size: 17px;
+            padding: 20px 90px 20px 0px;
+            color: darkgray;
+            font-family: sans-serif;
+            display: inline-block;
+             line-height: 1.5;
+        }
+        #bm{
+            width: 100%;
+            padding: 30px 10px 30px 0px;
+            font-size: small;
+            color: #4461F9;
+            display: inline-block;
+
+        }
+        .team_di{
+            width: 60%;
+            display: inline-block;
+
+        }
+        #ls{
+            font-family: sans-serif;
+            font-weight: bold;
+        }  
+        #aj{
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+            
+        #chmn{
+            font-family: sans-serif;
+            font-size: 17px;
+        }
+        #bo{
+            font-family: sans-serif;
+        }
+        .lsch{
+            width: 50%;
+            float: left;
+            padding-top: 10px;
+            padding-bottom: 60px;
+            line-height: 2;
+        }
+        .ajbo{
+            widows: 50%;
+                float: right;
+            padding-top: 10px;
+            padding-bottom: 60px;
+            line-height: 2;
+
+        }
+        .support{
+            display: inline-block;
+            width: 100%;
+        }
+        .support_section{
+            padding: 0px 50px 50px 50px;
+
+        }
+        .support_section1{
+            padding: 50px 0px 0px 10px;
+            font-size: 12;
+            color: blue;
+            font-family: serif;
+        }
+        .support_section2{
+             display: inline-block;
+             padding: 30px 30px 0px 0px;
+        }
+        .support_section3{
+            display: inline-block;
+             padding: 0px 30px 0px 0px;
+        }
+        .support_section4{
+             display: inline-block;
+             padding: 0px 30px 0px 0px;
+        }
+        .support_section5{
+             display: inline-block;
+             padding: 0px 30px 0px 0px;
+            
+        }
+        .support_section6{
+             display: inline-block;
+             padding: 0px 30px 0px 0px;
+            
+        }
+        .employees{
+            width: 44%;
+            float: right;
+        }
+        .employees_section{
+            width: 70%;
+            display: inline-block;
+            padding-top: 50px;
+        }
+        #employee_name{
+            display: inline-block;
+            padding-bottom: 12px;
+            font-family: sans-serif;
+            color: #4966FE;
+            font-weight: bold;
+        }
+        #posi{
+            font-style: italic;
+              /* font-weight: bold; */
+            color: darkgray;
+            font-family: sans-serif;
+            font-size: 14px;
+            padding-bottom: 40px;
+        }
+        #in{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+             width: 50px;
+            height: 50px;
+             border: 1px solid #4966FE;
+             border-radius: 50%;
+             letter-spacing: 1;
+             font-weight:inherit;
+             font-size:x-large;
+             color:#4966FE;
+            float: right;
+        }
+        #in:hover{
+            background-color: #4966FE;
+            color: white;
+            transition: 2s;
+            cursor: pointer;
+        }
+        .read_article{
+            width: 100%;display:inline-block;
+        }
+        .news_article_section{
+             padding: 80px;
+             display: -webkit-inline-box;
+             background-color:#00134F;
+
+        }
+        .news_article_section1{
+              width: 25%;
+        }
+        #news_article_section11{
+               font-size: small;
+               display: inline-block;
+               color: darkslateblue;
+               padding-bottom: 10px;
+               letter-spacing: 1;
+               font-weight: bolder; 
+        }
+         .news_article_section2{
+              width: 25%;
+              padding-left: 80px;
+              padding-right: 80px;
+        }
+        #news_article_section12{
+                display: -webkit-inline-box;
+                font-size: small;
+                padding: 0px 10px 20px 10px;
+                 color: dodgerblue;
+                 font-family: sans-serif;
+
+        }
+        #news_article_section13{
+                 font-family: sans-serif;
+                 font-size: medium;
+                 padding: 10px 10px 20px 0px;
+                 letter-spacing: 1;
+                 color: white;
+                 line-height: 1.5;
+        }
+        #news_article_section14{
+             font-family: sans-serif;
+             color: blueviolet;
+             font-style: italic;
+        }
+        .news_article_section3{
+            width:30%;
+        }
+        .footer{
+            width: 100%;
+            background-color:#000B48;
+
+        }
+        .footer_section{
+            padding: 100px 60px 60px 60px;
+ 
+        }
+     .footer_section1{
+            width: 45%; 
+        display: inline-block;
+        }
+        #signup_for_diago{
+           font-size: 35px;
+    color: white;
+    /* background-color: #000B48; */
+    padding-bottom: 30px; 
+        }
+        #diago_detail{
+              color: darkgray;
+             font-family: sans-serif;
+             line-height: 1.5;
+             font-size: larger;
+             padding-bottom: 50px;       
+        }
+ 
+        #person_official_detail{
+              padding: 20px;
+              width: 90%;
+              border: 1px solid royalblue;
+              font-style: italic;
+              background-color: #000B48;
+        }
+        .right_arrow{
+              color:royalblue;
+              display: inline-block;
+              width: 100%;
+        }
+        .right_arrow p{
+                /* display: inline-block; */
+            margin-top: 1px;
+             width: 10%;
+             float: right;
+             height: 40px;
+             border: 1px solid royalblue; 
+        }
+        .right_arrow p:hover{
+            color:#000B48; 
+            background-color: royalblue;
+            transition: 2s;
+            cursor: pointer;
+        }
+        #right_arrow{
+            padding: 10px 0px 10px 14px;
+        }
+        .footer_section2{
+            display: inline-block;
+            width: 50%;
+            float: right;
+        }
+          .footer_section2_section{
+               padding:0px 60px 0px 100px; 
+            }
+       
+             #git{
+                font-size:60px;
+                padding-bottom:30px;
+                color:gray;
+            }
+            #contact_id{
+                color:deepskyblue;
+                font-size:large;
+                font-family:sans-serif;
+                letter-spacing:1;
+                padding-bottom:60px; 
+            }
+            #collin{
+                  color: gray;
+                  width: 60%;
+                  display: inline-block;
+                  padding-bottom: 30px;
+            }
+        #eltara{
+               display:inline-block;
+               float:right;
+               color:darkgray;
+               padding-bottom:30px;
+        }
+        #miami_beach{
+               color:gray;
+               display:inline-block;
+               width:50%;
+               float:left;
+        }
+        #mumbai{
+               color:gray;
+               width:50%;
+               display:inline-block;
+               text-align: -webkit-right;
+        }
+        .footer_section3{
+               display:inline-block;
+               background-color:midnightblue;
+               color: gray;
+               width: 100%;
+        }
+        .footer_section3_section{
+             padding:30px 20px 20px 60px;
+        }
+        #2018_harli{
+            color:gray;
+        }
+        @media screen and (max-width: 768px){
+            body{
+                
+            }
+            .toggle_checkbox{
+               display: block;
+            }
+            .heading p{
+            padding: 0px 0px 0px 50px;
+            }
+            .section1{
+              width: 100%;
+             display: none;
+            }
+            .main_wrapper{
+                display: block;
+                width: 100%;
+            }
+            .wrapper{
+                font-size:30px;
+                margin: 10px;
+                width: 80%;
+                padding-left: 50px;
+            }
+            .section31{
+               width: 100%;
+                padding:50px;
+                box-sizing: border-box;
+            }
+            .content{
+                
+                display: inline-block;
+            }
+            .content_file1{
+                width: 85%;
+                display: block;
+                
+            }
+            .content_file2{
+                width: 100%;
+            }
+            .team_content_wrapper{
+                width: 100%;
+                box-sizing: border-box;
+                padding: 0px 20px 0px 20px ;
+            }
+            .content_file2_wrapper{
+                display: inline-block;
+                width: calc(100% - 60px);
+                padding: 30px;
+                margin-right: 0px;
+                border-top: 1px solid slateblue;
+                background-color: midnightblue;
+            }
+            .content_file3 {
+               width: 100%;
+               float: right;
+               background-color: #000B48;
+               border-bottom: 1px solid slateblue;
+            }
+            .content_file3 {
+              width: 100%;
+              float: right;
+              background-color: #000B48;
+              border-bottom: 1px solid slateblue;
+            }
+            .support_section{
+                display: none;
+            }
+            #wwa{
+                width: 100%;
+                padding: 50px 0px 20px 0px;
+                font-family: sans-serif;
+                font-weight: 600;
+            }
+            #otpy{
+                font-size: 28px;
+                width:100%;
+                padding: 0px 0px 20px 0px;
+                box-sizing: border-box;
+            }
+            #wapw{
+                width:100%;
+                font-size: 17px;
+                padding: 0px 0px 10px 0px;
+                box-sizing: border-box;
+            }
+            #bm{
+                width: 100%;
+                
+                padding: 30px 0px 0px 50px;
+                box-sizing: border-box;
+            }
+            .team_di{
+                padding:20px 50px 20px 50px;
+            }
+            .employees{
+                width: 100%;
+                overflow: hidden;
+                float: left;
+            }
+            .employees_section {
+             width:calc(100% - 80px);
+             display: inline-block;
+             padding-left: 60px;
+             padding-top: 0px;
+            }
+            .employee1,.employee2,.employee3,.employee4,.employee5{ 
+             margin-bottom: 30px;
+             border-bottom: 1px solid lightgray;
+
+            }
+            #posi{
+                padding-bottom: 20px;
+            }
+            .news_article_section{
+                width: 100%;
+                padding: 50px;
+                display: inline-block;
+                overflow: hidden;
+                box-sizing: border-box;
+                font-size: 17px;
+            }
+            .news_article_section1{
+                width: 100%;
+                display: inline-block;
+                padding: 0px 20px 20px 0px;
+            }
+             .news_article_section2{
+                width: 100%;
+                 padding: 0px;
+                padding: 0px 20px 20px 0px;
+            }
+             .news_article_section3{
+                width: 100%;
+                padding: 0px 20px 20px 0px;
+
+            }
+            .news_article_section1, .news_article_section2, .news_article_section3 {
+                padding-bottom: 40px;
+                border-bottom: 1px solid slateblue;
+                margin-bottom: 20px;
+            }
+            .footer{
+                display: inline-block;
+            }
+            .footer_section1{
+                width: 85%;
+            }
+            .footer_section2{
+                width: 85%;
+            }
+           
+            #zedb,#ea,#tar{
+                font-size: 18px;
+            }
+            #hgdb,#tifa,#wpoa{
+                font-size: 15px;
+            }
+            #odpp{
+                font-size: 25px;
+            }
+            #week_pack, #week_pack2, #week_pack3{
+                font-size: 39px;
+                font-weight: 600;
+            }
+            #plp, #plp2, #plp3,#cat, #cat2, #cat3,#smp, #smp2, #smp3{
+                font-size: 18px;
+                font-weight: 600;
+            }
+            
+            .news_article_section1,.news_article_section2,.news_article_section3{
+                   padding-bottom: 40px; 
+                }
+            .footer_section2{
+                width: 100%;
+            }
+            .footer_section2_section{
+                padding-left: 20px;
+                margin-bottom: 20px;
+            }
+            #signup_for_diago{
+                font-size: 25px;
+            }
+            #diago_detail{
+                font-size: 15px;
+            }
+            .footer_section2_section p{
+                font-size: 20px;
+            }
+              
+            .import{
+                display: block;
+                height: 100px;
+                width: 100%;
+            }
+            .section1 ul{
+                text-align: center;
+                float: none;
+                background-color:#00134F;
+            }
+            .section1 li:hover{
+                background-color: #000B48;
+            }
+        }
+        
+           @media screen and (max-width: 768px){
+            .heading >p {
+           font-size: 40px;
+           padding: 0px 0px 0px 50px;
+          }
+            .toggle_checkbox {
+            font-size: 44px;
+           }
+           .wrapper{
+            font-size: 47px;
+            margin: 20px;    
+               }
+             #wedd{
+           font-size: 25px;
+               }
+               #zedb, #ea, #tar {
+            font-size: 30px;
+          }
+               #hgdb, #tifa, #wpoa {
+            font-size: 25px;
+           }
+            #odpp {
+          font-size: 40px;
+          }
+          #aani {
+          font-size: 25px;
+          } 
+           #week_pack, #week_pack2, #week_pack3 {
+    font-size: 60px;
+      }    
+         #plp, #plp2, #plp3, #cat, #cat2, #cat3, #smp, #smp2, #smp3 {
+    font-size: 27px;
+              }      
+               #wwa {
+    font-size: 27px;
+    }
+               #otpy {
+    font-size: 40px;
+               }
+               #wapw{
+    font-size: 27px;
+               }
+               #bm {
+    font-size: 33px;
+               }
+              #ls {
+    font-size: 28px;
+} 
+               #chmn {
+    font-size: 28px;
+}
+               
+               #aj {
+    font-size: 27px;
+}
+        #bo {
+    font-size: 25px;
+}       
+               #in {
+    width: 70px;
+    height: 70px;
+                   font-size: 30px;
+               }
+               #employee_name {
+                   font-size: 25px;
+               }
+               #posi {
+                   font-size: 26px;
+               }
+               #news_article_section11 {
+               font-size: 30px;
+               }
+               #news_article_section12 {
+                   font-size: 30px;
+               }
+               #news_article_section13 {
+               font-size: 30px;
+               }
+               #news_article_section14 {
+                   font-size: 30px;
+               }
+               #signup_for_diago {
+    font-size: 60px;
+}
+               #diago_detail {
+    font-size: 30px;
+}
+               #person_official_detail {
+                   font-size: 25px;
+               }
+               #git {
+    font-size: 60px;
+               }
+               #contact_id {
+                   font-size: 25px;
+               }
+               .footer_section2_section p {
+    font-size: 35px;
+               }
+               .footer_section3 {
+                   font-size: 25px;
+               }
+               .right_arrow p {
+                   display: none;
+               }
+                     .content_file1 {
+         width: 70%;
+        } 
+        }
+ 
+    
+/*
+            @media screen and (max-width: 500px){
+                    
+            .wrapper{
+            padding: 20px;
+            font-size: 35px;
+            width: calc(100% - 40px);
+            margin: 0!important;       
+                
+                }  
+            .section31{
+                width:100%!important;
+                padding: 20px;
+                display: inline-block;
+                }
+            #wedd{
+                 padding: 60px 0px 50px 20px;
+   
+                }  
+                #zedb,#ea,#tar{
+                padding: 0px 60px 20px 20px;
+                }
+                #hgdb, #tifa, #wpoa{
+                padding: 0px 52px 30px 20px;
+                margin-bottom: 25px;
+                }
+                #bm,.team_di{
+                padding: 30px 0px 0px 0px;
+                }
+                .team_di{
+                    width: 100%;
+                }
+                .employees_section{
+                    width: 90%;
+                    padding-left: 20px;
+                }
+                .footer_section {
+                  padding: 50px 0px 20px 20px;
+                 }
+                .footer_section2_section {
+                 padding: 0px 42px 0px 10px;
+              }
+                #git{
+                   width: 90%;
+                   display: inline-block;
+                }
+                .footer_section2_section p{
+                    width: 126px;
+                }
+                
+        }
+*/
+        @media screen and (max-width: 420px){
+            body{
+                width: 129%;
+            }
+            .section1 li {
+            font-size: 18px;
+            }
+            #odpp {
+    font-size: 33px;
+    }
+         #otpy {
+    font-size: 33px;
+}
+            #bm {
+    font-size: 28px;
+}
+            #ls,#chmn,#aj,#bo{
+    font-size: 22px;
+}
+           #employee_name {
+                   font-size: 22px;
+               }
+               #posi {
+                   font-size: 22px;
+               }   
+            .section31 {
+             padding: 50px 20px;
+     }
+        }
+           @media screen and (max-width: 320px){
+              .footer_section {
+    padding: 100px 60px 60px 0px;
+}
+               .footer_section1 {
+    width: calc(100% - 70px);
+    text-align: center;
+    padding: 20px 70px;
+}
+               #eltara {
+                   float: none;
+               }
+               .lsch,.ajbo{
+               width: 100%;
+               float: none;
+               }
+               .wrapper{
+                   margin: 40px 0px;
+               }
+               .footer_section1 {
+                width: calc(100% - 36px);
+                text-align: center;
+                padding: 20px 36px;
+     }
+        }
+        
+    </style>
+    </head>
+    
+    <body>
+    
+    <div class="header">
+        <div class="heading">
+            <p>Harlequin</p>
+            <div class="toggle_checkbox">
+            
+            <label id="lable" for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle">
+            
+            </div>
+        </div>
+        </div>
+    
+        
+        <div class="main">
+        <div class="main_wrapper">
+        <div class="section1">
+            
+            
+        <ul>
+            
+        <li>ABOUT</li> 
+        <li>TEAM</li>    
+        <li>CONTACT</li>    
+            
+        </ul>    
+        </div>
+        <div class="wrapper">
+            
+            Helping high growth companies with accounting and decision making
+
+            </div>
+            </div>
+        
+        </div>
+        <div class="section3_wrapper">
+        
+            <div class="section31">
+                <div class="section311">
+                <div class="wedd">
+            <p id="wedd">WHAT WE DO </p>
+                </div>
+            <p id="zedb">Zero-defect Bookkeeping</p>
+             <p id="hgdb">High growth decision-making begins with accurate numbers. We ensure your books are correct and compliant.</p>
+            <p id="ea">Expert Analysis</p>
+            <p id="tifa">To identify focus areas for growth, our experts regularly analyze your business numbers and distill key insights.</p>
+            <p id="tar">Timely Actionable Reports</p>
+            <p id="wpoa">We package our analysis into a set of periodic reports that act as Decision Packs.</p>
+           
+                </div>
+            </div>
+            
+        
+        </div>
+        
+           <div class="content">
+               <div class="content_file1">
+        <p id="odpp">Our Decision Packs provide accurate numbers on a periodic basis to take the right business decisions</p>
+        <p id="aani">Accessing accurate numbers is important. However, it requires disciplined bookkeeping and expert analysis, which is time consuming and often takes low priority. Our experts fill that gap and give you Decision Packs on a weekly, monthly and quarterly basis that empower you to consistently achieve full potential.</p>
+               </div>
+               
+               
+               <div class="content_file2">
+               <div class="content_file2_wrapper">
+               <div class="content_file21">
+                   <p id="week_pack">Weekly Pack</p>
+                   <p id="plp">P&L performance</p>
+                   <p id="cat">Customer acquisition trends</p>
+                   <p id="smp">Social media performance</p>
+                   </div>
+                   
+               
+               </div>
+        
+           <div class="content_file3">
+            <div class="content_file31">
+              
+               <div class="content_file2_wrapper">
+               <div class="content_file21">
+                   <p id="week_pack2">Monthly Pack</p>
+                   <p id="plp2">Financial Performance</p>
+                   <p id="cat2">Expense Tracking</p>
+                   <p id="smp2">Cash Flow Analysis</p>
+                   </div>
+                 </div>
+               </div>
+               </div>
+                   
+                 <div class="content_file4">
+                 <div class="content_file41">
+              
+               <div class="content_file2_wrapper">
+               <div class="content_file21">
+                   <p id="week_pack3">Quarterly Pack</p>
+                   <p id="plp3">P&L performance</p>
+                   <p id="cat3">Board meeting document</p>
+                   <p id="smp3">90 days planing</p>
+                   </div>
+                 </div>
+               </div>
+               </div> 
+                   
+               </div>
+        </div>
+        
+        
+        <div class="support">
+        
+        <div class="support_section">
+            
+            
+            <div class="support_section1">
+            
+            <p style="letter-spacing: 1;font-size: 11px;">SYSTEMS WE SUPPORT</p>
+                
+            </div>
+            
+             
+            <div class="support_section2">
+                        <img src="Capture1.png">
+
+            
+            </div>
+            
+             
+            <div class="support_section3">
+            
+                        <img src="Capture2.png">
+
+            </div>
+            
+             
+            <div class="support_section4">
+                        <img src="Capture3.png">
+
+            
+            </div>
+            
+             
+            <div class="support_section5">
+            
+                        <img src="Capture4.png">
+
+            </div>
+            
+             
+            <div class="support_section6">
+            
+                        <img src="Capture5.png">
+
+            </div>
+            
+             
+            </div>
+        
+        </div>
+           <div class="team">
+        
+            <div class="team_content_wrapper">
+               
+               <p id="wwa">WHO WE ARE</p>
+                
+               <p id="otpy">Our team prepares you to scale up your business and focus on growth</p> 
+               <p id="wapw">We are professionals with experience across startups, investment banks, conglomerates, accounting and law firms, having worked with firms like Uber, Deloitte, Credit Suisse, PwC, Reliance and AZB & Partners.</p>
+               <p id="bm">BOARD MEMBERS</p>
+                
+                <div class="team_di">
+               <div class="lsch">
+                <p id="ls">Lain shovlin</p>
+                 <p id="chmn">chairman</p>
+                </div>
+                    <div class="ajbo">
+
+                          <p id="aj">Akshat jain</p>
+
+                           <p id="bo">Board observer</p>
+                    </div>
+                </div>
+               </div>
+               
+               <div class="employees">
+                 <div class="employees_section">
+                   
+                    <div class="employee1">
+                     <p id="employee_name">Sachin Shetty</p>
+                        <i class="fab fa-linkedin-in" id="in"></i>
+                        <p id="posi">Financial Planning</p>
+                     </div>
+                     <div class="employee2">
+                    <p id="employee_name">Pratik Daudkhane </p>
+                        <i class="fab fa-linkedin-in" id="in"></i>
+                     <p id="posi">Business Intelligence </p>                     
+                     </div>
+                     <div class="employee3">
+                     <p id="employee_name">Rangam Sharma</p>
+                        <i class="fab fa-linkedin-in" id="in"></i>
+                     <p id="posi">Accounting Compliance</p>                
+                     </div>
+                    <div class="employee4">
+                    <p id="employee_name">Gururaj Lunkad</p>
+                        <i class="fab fa-linkedin-in" id="in"></i>
+                                  <p id="posi">Auditing </p>                
+       
+                     </div>
+                    <div class="employee5">
+                    <p id="employee_name">Leena Jadhav</p>
+                        <i class="fab fa-linkedin-in" id="in"></i>
+                     <p id="posi">Bookkeeping</p>          
+                     </div>
+                  
+                   </div>
+               
+               </div>
+               
+        </div>  
+        
+        <div class="read_article">
+         <div class="news_article_section">
+            
+             <div class="news_article_section1">
+             <p id="news_article_section11">NEWS</p>
+             <P id="news_article_section12">BLOOMBERG</P>
+             <P id="news_article_section13">Spotify’s accounting mistake resulted in skyrocketing of losses</P>
+            <P id="news_article_section14">Read article</P>
+             </div>
+            
+            
+               <div class="news_article_section2">
+             <p id="news_article_section11">NEWS</p>
+             <P id="news_article_section12">HARVARDS BUSINESS REVIEW</P>
+             <P id="news_article_section13">   IBM estimates that bad data<br>costs the US $3 Trillion Per Year</P>
+            <P id="news_article_section14">Read article</P>
+             </div>
+             
+               <div class="news_article_section3">
+             <p id="news_article_section11">NEWS</p>
+             <P id="news_article_section12">FORBES</P>
+             <P id="news_article_section13">Accountants considered the most important by small businesses</P>
+            <P id="news_article_section14">Read article</P>
+             </div>
+             
+            </div>
+        
+        
+        </div>
+         
+        
+        
+        <div class="footer">
+        
+        <div class="footer_section">
+            
+            <div class="footer_section1">
+            
+            <p id="signup_for_diago">Sign up for a free accounting diagnostics report</p>
+            <p id="diago_detail">We will setup a call with you to understand your business model and the current systems. We will get back with a diagnostics report highlighting the positives and potential improvements.</p>
+                
+                <form>
+                  <input type="text" placeholder="E-mail address" id="person_official_detail">
+                    
+                    <div class="right_arrow">
+                        
+                        <p><i id="right_arrow" class="fas fa-arrow-right"></i></p>
+                    
+                    </div>
+                
+                </form>
+            </div>
+            
+            
+           
+            <div class="footer_section2">
+             <div class="footer_section2_section">
+            <p id="git">Get in touch</p>
+            <p id="contact_id" >contact@harlqulnadvisor.com</p>
+            <p id="collin">3315,collin ave</p>
+            <p id="eltara">El Tara, Powai,</p>
+            <p id="miami_beach">Miami Beach</p>
+            <p id="mumbai">Mumbai</p>
+               </div>  
+            </div>
+            </div>
+        </div>
+        <div class="footer_section3">
+        
+        <div class="footer_section3_section">
+        
+            <p id="2018_harli">© 2018 Harlequin. All Rights Reserved.</p>
+            </div>
+        </div>
+    </body>
+</html>
